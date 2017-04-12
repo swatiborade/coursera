@@ -15,10 +15,10 @@
       <div class="form-group">
           <input id="lunch-menu" type="text" ng-model="menu"
           placeholder="list comma separated dishes you usually have for lunch"
-          class="form-control" required="Please enter data first">
+          class="form-control" ng-style="borderstyle">
 
       </div>
-      <div>
+      <div ng-style="msgstyle">
         {{message}}
       </div>
       <div class="form-group">
